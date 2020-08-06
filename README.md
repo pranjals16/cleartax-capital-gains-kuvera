@@ -21,7 +21,7 @@ Note that the Excel file from Kuvera is an `.xls` and the one from ClearTax is `
 For generating the capital gains report for ClearTax, we run the script as follows:
 
 ```sh
-$ python cleartax_capital_gains_report.py gains.xls template.xlsx output.xlsx
+$ python cleartax_capital_gains_kuvera_report.py gains.xls template.xlsx output.xlsx
 ```
 
 This will write a file called `output.xlsx` to the current directory. You can then verify if the information is correct, and then directly upload it to your ITR on ClearTax.
